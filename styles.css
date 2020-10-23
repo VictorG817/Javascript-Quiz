@@ -1,18 +1,47 @@
-.container {
-    width: 600px;
-    max-width: 60%;
-    background-color: antiquewhite;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 body {
-    padding: 0;
+    padding-top: 10%;
     margin: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+.container {
+    margin: auto;
+    width: 700px;
+    max-width: 70%;
+    background-color: rgb(247, 241, 234);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+#question {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*~~~~~~ Buttons Styling ~~~~~~*/
+.startNext {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.btn {
+    width: 30%;
+    max-width: 40%;
+    
+   
+}
+.btn:hover {
+    border-color: black;
+}
 .button-grid {
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 10px;
